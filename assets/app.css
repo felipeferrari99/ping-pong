@@ -1,10 +1,13 @@
 body {
-    height: 100vh;
     background-image: url(./bg.jpg);
     background-repeat: no-repeat;
     background-size: 80%;
     background-position: center;
     background-attachment: fixed;
+}
+
+#buttonOne, #buttonTwo, #reset-button {
+    width: 100%;
 }
 
 #score {
@@ -18,11 +21,15 @@ body {
     text-align: center;
 }
 
-.container-fluid {
+.container {
     display: flex;
     justify-content: center;
+    align-items: center;
     position: fixed;
     bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
     padding-bottom: 2em;
 }
 
@@ -45,7 +52,7 @@ body {
         font-size: 6em;
     }
 
-    .container-fluid {
+    .container {
         margin-top: 1em;
     }
 }
